@@ -2447,12 +2447,7 @@ bool UIElement::EnableMappedChild(String key, bool en, bool recursive)
     auto* child = GetMappedChildPointer(key, recursive);
     if (child != nullptr) {
         succ = true;
-        if (recursive) {
-            child->EnableMapped(en, true);
-        }
-        else {
-            child->SetEnabled(en);
-        }
+        child->EnableMapped(en, true, recursive);
     }
     return succ;
 }
@@ -2465,12 +2460,7 @@ bool UIElement::SetChildMappedVisibility(String key, bool en, bool recursive)
     auto* child = GetMappedChildPointer(key, recursive);
     if (child != nullptr) {
         succ = true;
-        if (recursive) {
-            child->SetVisibilityMapped(en, true);
-        }
-        else {
-            child->SetVisible(en);
-        }
+        child->SetVisibilityMapped(en, true, recursive);
     }
     return succ;
 }
@@ -2525,16 +2515,18 @@ bool UIElement::isShown()
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
-void UIElement::ShowMapped(bool en,bool recursive)
+void UIElement::ShowMapped(bool en,bool resetThis,bool recursive)
 {
-    SetEnabled(en);
-    SetVisible(en);
+    if (resetThis) {
+        SetEnabled(en);
+        SetVisible(en);
+    }
     if (recursive) {
         auto it = mappedElements_.begin();
         while (it != mappedElements_.end()) {
             auto* current = it->second->uiPtr.Get();
             if (current != nullptr) {
-                current->ShowMapped(en, recursive);
+                current->ShowMapped(en, true, recursive);
             }
             it++;
         }
@@ -2549,7 +2541,7 @@ bool UIElement::ShowMappedChild(String name, bool en, bool recursive)
     auto* child = GetMappedChildPointer(name, recursive);
     if (child != nullptr) {
         succ = true;
-        child->ShowMapped(en, recursive);
+        child->ShowMapped(en, true, recursive);
     }
     return succ;
 }
@@ -2559,16 +2551,10 @@ bool UIElement::ShowMappedChild(String name, bool en, bool recursive)
 void UIElement::ResetShown(bool resetThis)
 {
     if (resetThis) {
-        SetEnabled(false);
-        SetVisible(false);
+        ShowMapped(false);
     }
-    auto it = mappedElements_.begin();
-    while (it != mappedElements_.end()) {
-        auto* current = it->second->uiPtr.Get();
-        if (current != nullptr) {
-            current->ShowMapped(false);
-        }
-        it++;
+    else {
+        ShowMapped(false, false, true);
     }
 }
 
