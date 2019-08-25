@@ -2317,20 +2317,18 @@ UIElement* UIElement::GetMappedChildPointer(Urho3D::String name, bool recursive)
 bool UIElement::RemoveMappedElement(String name, bool recursive)
 {
     bool succ = false;
-    auto it = mappedElements_.find(name);
-    if (it != mappedElements_.end()) {
+    auto* child = GetMappedChildPointer(name, recursive);
+    if (child != nullptr) {
         succ = true;
-        auto* current = it->second->uiPtr.Get();
-        if (current != nullptr) {
-            auto* parent = current->GetParent();
-            if (parent != nullptr) {
-                parent->RemoveChild(current);
-            }
+        auto* parent = child->GetParent();
+        if (parent != nullptr) {
+            parent->RemoveChild(child);
         }
-        mappedElements_.erase(it);
+        mappedElements_.erase(name);
     }
+
     if (recursive && !succ) {
-        it = mappedElements_.begin();
+        auto it = mappedElements_.begin();
         while (it != mappedElements_.end()) {
             auto* current = it->second->uiPtr.Get();
             if (current != nullptr) {
@@ -2446,19 +2444,15 @@ UIElement* UIElement::GetMappedParent()
 bool UIElement::EnableMappedChild(String key, bool en, bool recursive)
 {
     bool succ = false;
-    auto it = mappedElements_.find(key);
-    if (it != mappedElements_.end()) {
-        auto* current = it->second->uiPtr.Get();
-        if (current != nullptr) {
-            succ = true;
-            current->SetEnabled(en);
-            if (recursive) {
-                current->EnableMapped(en, true);
-            }
-            else {
-                current->SetEnabled(en);
-            }
-        } 
+    auto* child = GetMappedChildPointer(key, recursive);
+    if (child != nullptr) {
+        succ = true;
+        if (recursive) {
+            child->EnableMapped(en, true);
+        }
+        else {
+            child->SetEnabled(en);
+        }
     }
     return succ;
 }
@@ -2468,17 +2462,14 @@ bool UIElement::EnableMappedChild(String key, bool en, bool recursive)
 bool UIElement::SetChildMappedVisibility(String key, bool en, bool recursive)
 {
     bool succ = false;
-    auto it = mappedElements_.find(key);
-    if (it != mappedElements_.end()) {
-        auto * current = it->second->uiPtr.Get();
-        if (current != nullptr) {
-            succ = true;
-            if (recursive) {
-                current->SetVisibilityMapped(en,true);
-            }
-            else {
-                current->SetVisible(en);
-            }
+    auto* child = GetMappedChildPointer(key, recursive);
+    if (child != nullptr) {
+        succ = true;
+        if (recursive) {
+            child->SetVisibilityMapped(en, true);
+        }
+        else {
+            child->SetVisible(en);
         }
     }
     return succ;
@@ -2515,7 +2506,7 @@ void UIElement::HandleKeyPressed(Urho3D::StringHash eventType, Urho3D::VariantMa
         if (data != nullptr) {
             elementFunction function = data->functionMapping;
             if (function != nullptr) {
-                function(this, nullptr);
+                function(this,nullptr);
             }
         }
     }
@@ -2548,6 +2539,19 @@ void UIElement::ShowMapped(bool en,bool recursive)
             it++;
         }
     }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+bool UIElement::ShowMappedChild(String name, bool en, bool recursive)
+{
+    bool succ = true;
+    auto* child = GetMappedChildPointer(name, recursive);
+    if (child != nullptr) {
+        succ = true;
+        child->ShowMapped(en, recursive);
+    }
+    return succ;
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////

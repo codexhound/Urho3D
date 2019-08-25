@@ -149,12 +149,18 @@ public:
     };
 
     /// Enable/Disable Function Mapped child
-    bool EnableMappedChild(Urho3D::String key, bool en, bool recursive = true);
+    bool EnableMappedChild(String key, bool en, bool recursive = true);
+    template <class T>
+    /// Enable/Disable Function Mapped child template version
+    bool EnableMappedChild(String key, bool en, bool recursive = true);
     /// Enable/Disable Function Mapped children
     void EnableMapped(bool en, bool enableThis = false, bool recursive = true);
     /// Set Visibility Function Mapped children
     void SetVisibilityMapped(bool en, bool enableThis = false, bool recursive = true);
     /// Set Visibility Function Mapped child
+    bool SetChildMappedVisibility(String key, bool en, bool recursive = true);
+    template <class T>
+    /// Set Visibility Function Mapped child template version
     bool SetChildMappedVisibility(String key, bool en, bool recursive = true);
     /// Set Font size on function mapped children
     void SetFontSize(int size, bool recursive = false);
@@ -178,6 +184,11 @@ public:
     bool RemoveMappedKey(Urho3D::Key);
     /// Show (Enable/Visibility) for function mapped elements
     virtual void ShowMapped(bool en, bool recursive = true);
+    /// Show (Enable/Visibility for function mapped children
+    bool ShowMappedChild(String name, bool en, bool recursive = true);
+    template <class T>
+    /// Show (Enable/Visibility for function mapped children, dynamic cast version
+    bool ShowMappedChild(String name, bool en, bool recursive = true);
     /// Returns if enabled/visible
     bool isShown();
     /// Get the Function Mapped Parent
@@ -935,30 +946,30 @@ template <class T> T* UIElement::GetMappedChildPointer(Urho3D::String name, bool
 {
     T* child = nullptr;
     if (name != String()) {
-        auto it = m_uiList.find(name);
-        if (it != m_uiList.end()) {
-            child = dynamic_cast<T*>(it->second->uiPtr.Get());
-        }
-    }
-    else {
-        auto it = m_uiList.begin();
-        while (it != m_uiList.end())
-        {
-            child = dynamic_cast<T*>(it->second->uiPtr.Get());
-            if (child != nullptr) {
-                break;
-            }
-            it++;
-        }
-    }
-    if (child == nullptr && recursive) {
-        auto it = m_uiList.begin();
-        while (it != m_uiList.end()) {
+        auto it = mappedElements_.find(name);
+        if (it != mappedElements_.end()) {
             auto* current = it->second->uiPtr.Get();
             if (current != nullptr) {
-                child = current->GetMappedChildPointer<T>(name, recursive);
+                child = dynamic_cast<T*>(current);
+            }
+        }
+    }
+    
+    if(name == String() || child == nullptr){
+        auto it = mappedElements_.begin();
+        while (it != mappedElements_.end())
+        {
+            auto* current = it->second->uiPtr.Get();
+            if (current != nullptr) {
+                child = dynamic_cast<T*>(current);
                 if (child != nullptr) {
                     break;
+                }
+                if (recursive) {
+                    child = current->GetMappedChildPointer<T>(name, recursive);
+                    if (child != nullptr) {
+                        break;
+                    }
                 }
             }
             it++;
@@ -967,4 +978,49 @@ template <class T> T* UIElement::GetMappedChildPointer(Urho3D::String name, bool
     return child;
 }
 
+template <class T> bool UIElement::EnableMappedChild(String key, bool en, bool recursive)
+{
+    bool succ = false;
+    auto* child = GetMappedChildPointer<T>(key, recursive);
+    if (child != nullptr) {
+        succ = true;
+        if (recursive) {
+            child->EnableMapped(en, true);
+        }
+        else {
+            child->SetEnabled(en);
+        }
+    }
+    return succ;
 }
+
+template <class T> bool UIElement::SetChildMappedVisibility(String key, bool en, bool recursive)
+{
+    bool succ = false;
+    auto* child = GetMappedChildPointer<T>(key, recursive);
+    if (child != nullptr) {
+        succ = true;
+        if (recursive) {
+            child->SetVisibilityMapped(en, true);
+        }
+        else {
+            child->SetVisible(en);
+        }
+    }
+    return succ;
+}
+
+template <class T> bool UIElement::ShowMappedChild(String name, bool en, bool recursive)
+{
+    bool succ = true;
+    auto* child = GetMappedChildPointer<T>(name, recursive);
+    if (child != nullptr) {
+        succ = true;
+        child->ShowMapped(en, recursive);
+    }
+    return succ;
+}
+
+}
+
+
