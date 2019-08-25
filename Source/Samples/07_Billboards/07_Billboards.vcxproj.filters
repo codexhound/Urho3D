@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\07_Billboards\Billboards.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\07_Billboards\Billboards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\Sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\Sample.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\07_Billboards\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\RampantVelcro\Documents\Urho3D\bin\CoreData">
+      <Filter>Resource Dirs</Filter>
+    </None>
+    <None Include="C:\Users\RampantVelcro\Documents\Urho3D\bin\Data">
+      <Filter>Resource Dirs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{269710BF-9DF8-36FA-945F-D779C4095FA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Dirs">
+      <UniqueIdentifier>{D8B45348-F5C7-3D8F-8B53-CFB20CD67299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{549170CE-6F0C-3CE1-BC10-CFD842782C63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

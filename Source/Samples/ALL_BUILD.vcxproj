@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{077C8469-A99C-3F7C-8B3B-BF1225C14B45}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\RampantVelcro\Documents\Urho3D\include;C:\Users\RampantVelcro\Documents\Urho3D\include\Urho3D\ThirdParty;C:\Users\RampantVelcro\Documents\Urho3D\include\Urho3D\ThirdParty\Bullet;C:\Users\RampantVelcro\Documents\Urho3D\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\RampantVelcro\Documents\Urho3D\include;C:\Users\RampantVelcro\Documents\Urho3D\include\Urho3D\ThirdParty;C:\Users\RampantVelcro\Documents\Urho3D\include\Urho3D\ThirdParty\Bullet;C:\Users\RampantVelcro\Documents\Urho3D\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\RampantVelcro\Documents\Urho3D\include;C:\Users\RampantVelcro\Documents\Urho3D\include\Urho3D\ThirdParty;C:\Users\RampantVelcro\Documents\Urho3D\include\Urho3D\ThirdParty\Bullet;C:\Users\RampantVelcro\Documents\Urho3D\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/RampantVelcro/Documents/Urho3D/Source/Samples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/RampantVelcro/Documents/Urho3D -BC:/Users/RampantVelcro/Documents/Urho3D --check-stamp-file C:/Users/RampantVelcro/Documents/Urho3D/Source/Samples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Users\RampantVelcro\Documents\Urho3D\CMake\Modules\FindUrho3D.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/RampantVelcro/Documents/Urho3D/Source/Samples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/RampantVelcro/Documents/Urho3D -BC:/Users/RampantVelcro/Documents/Urho3D --check-stamp-file C:/Users/RampantVelcro/Documents/Urho3D/Source/Samples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Users\RampantVelcro\Documents\Urho3D\CMake\Modules\FindUrho3D.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/RampantVelcro/Documents/Urho3D/Source/Samples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/RampantVelcro/Documents/Urho3D -BC:/Users/RampantVelcro/Documents/Urho3D --check-stamp-file C:/Users/RampantVelcro/Documents/Urho3D/Source/Samples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Users\RampantVelcro\Documents\Urho3D\CMake\Modules\FindUrho3D.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\ZERO_CHECK.vcxproj">
+      <Project>{191CB911-A3CF-30A8-8D3D-6974AA07EF6A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\01_HelloWorld\01_HelloWorld.vcxproj">
+      <Project>{FF25FB18-7805-3F23-A72A-848717564C2C}</Project>
+      <Name>01_HelloWorld</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\02_HelloGUI\02_HelloGUI.vcxproj">
+      <Project>{965E40D4-B3B1-3B81-8C9E-19135C970BB9}</Project>
+      <Name>02_HelloGUI</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\03_Sprites\03_Sprites.vcxproj">
+      <Project>{4DA708EE-2928-331A-9351-0B9BD9444954}</Project>
+      <Name>03_Sprites</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\04_StaticScene\04_StaticScene.vcxproj">
+      <Project>{148AD0C6-E019-3B51-9E75-616E25E1A251}</Project>
+      <Name>04_StaticScene</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\05_AnimatingScene\05_AnimatingScene.vcxproj">
+      <Project>{A30E596C-E441-36D4-B196-E79627285366}</Project>
+      <Name>05_AnimatingScene</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\06_SkeletalAnimation\06_SkeletalAnimation.vcxproj">
+      <Project>{534986F8-9A05-3153-968B-0ED243E3EB1A}</Project>
+      <Name>06_SkeletalAnimation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\07_Billboards\07_Billboards.vcxproj">
+      <Project>{6F26A83E-116E-3893-B342-325F70AE889C}</Project>
+      <Name>07_Billboards</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\08_Decals\08_Decals.vcxproj">
+      <Project>{1A6E7307-BE4B-30C9-83C4-8B4398D3FBC7}</Project>
+      <Name>08_Decals</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\09_MultipleViewports\09_MultipleViewports.vcxproj">
+      <Project>{B3FABD15-DF34-36A4-A490-73F13A071E9C}</Project>
+      <Name>09_MultipleViewports</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\10_RenderToTexture\10_RenderToTexture.vcxproj">
+      <Project>{B179C607-FC7A-37CE-B1B5-7920DFED9AC2}</Project>
+      <Name>10_RenderToTexture</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\11_Physics\11_Physics.vcxproj">
+      <Project>{D9EE7B14-A943-3020-9356-9699B33A4056}</Project>
+      <Name>11_Physics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\12_PhysicsStressTest\12_PhysicsStressTest.vcxproj">
+      <Project>{E78BDEED-74C6-3063-BF66-EFAAC712EF75}</Project>
+      <Name>12_PhysicsStressTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\13_Ragdolls\13_Ragdolls.vcxproj">
+      <Project>{22277C29-5D12-3888-B1BA-53898F12B0ED}</Project>
+      <Name>13_Ragdolls</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\14_SoundEffects\14_SoundEffects.vcxproj">
+      <Project>{C6C855C0-646F-3A9C-ACDE-5CA679E95C81}</Project>
+      <Name>14_SoundEffects</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\15_Navigation\15_Navigation.vcxproj">
+      <Project>{9179BE35-7C68-35E2-B99F-6665B4F90317}</Project>
+      <Name>15_Navigation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\16_Chat\16_Chat.vcxproj">
+      <Project>{91E3722A-89EC-36F2-A712-24370104BA59}</Project>
+      <Name>16_Chat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\17_SceneReplication\17_SceneReplication.vcxproj">
+      <Project>{FFC5EACF-CABC-3C68-AC51-84D3EE0C0C27}</Project>
+      <Name>17_SceneReplication</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\18_CharacterDemo\18_CharacterDemo.vcxproj">
+      <Project>{476F4CC1-8A42-34F3-9668-338E54367019}</Project>
+      <Name>18_CharacterDemo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\19_VehicleDemo\19_VehicleDemo.vcxproj">
+      <Project>{54E87128-0039-3C4E-9F14-785B69EC8751}</Project>
+      <Name>19_VehicleDemo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\20_HugeObjectCount\20_HugeObjectCount.vcxproj">
+      <Project>{3770EED2-C989-3AED-B8C4-D65C43283FA4}</Project>
+      <Name>20_HugeObjectCount</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\21_AngelScriptIntegration\21_AngelScriptIntegration.vcxproj">
+      <Project>{8C102783-887B-3F39-89DA-C6D3D707F15B}</Project>
+      <Name>21_AngelScriptIntegration</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\22_LuaIntegration\22_LuaIntegration.vcxproj">
+      <Project>{D7FE754B-CB8E-3686-914E-82AE90BF6180}</Project>
+      <Name>22_LuaIntegration</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\23_Water\23_Water.vcxproj">
+      <Project>{EC0AC5CC-BA24-3222-AF75-6C365CC8CEE5}</Project>
+      <Name>23_Water</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\24_Urho2DSprite\24_Urho2DSprite.vcxproj">
+      <Project>{49546A4B-D9F1-3610-8197-8B262AD3E262}</Project>
+      <Name>24_Urho2DSprite</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\25_Urho2DParticle\25_Urho2DParticle.vcxproj">
+      <Project>{A06581B0-AFD7-3B42-B64D-A9ABF6AB5655}</Project>
+      <Name>25_Urho2DParticle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\26_ConsoleInput\26_ConsoleInput.vcxproj">
+      <Project>{FF4FFCB8-6DE2-35E7-88C9-577BBB80C01F}</Project>
+      <Name>26_ConsoleInput</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\27_Urho2DPhysics\27_Urho2DPhysics.vcxproj">
+      <Project>{FCEFFD90-9D01-38A2-8B9B-8F8AF9248D9F}</Project>
+      <Name>27_Urho2DPhysics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\28_Urho2DPhysicsRope\28_Urho2DPhysicsRope.vcxproj">
+      <Project>{A2380326-BD96-3567-9E11-D4AB8E13ACCB}</Project>
+      <Name>28_Urho2DPhysicsRope</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\29_SoundSynthesis\29_SoundSynthesis.vcxproj">
+      <Project>{DA23C8FC-E09D-3C66-BD1D-DAC235943510}</Project>
+      <Name>29_SoundSynthesis</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\30_LightAnimation\30_LightAnimation.vcxproj">
+      <Project>{A5BE892F-E6A6-360B-A3E1-0AED30E47D34}</Project>
+      <Name>30_LightAnimation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\31_MaterialAnimation\31_MaterialAnimation.vcxproj">
+      <Project>{856FC300-1EDC-3593-8A1E-5A0F67A08E28}</Project>
+      <Name>31_MaterialAnimation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\32_Urho2DConstraints\32_Urho2DConstraints.vcxproj">
+      <Project>{CB3A9DFA-50FD-32C0-B568-F21B5A661802}</Project>
+      <Name>32_Urho2DConstraints</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\33_Urho2DSpriterAnimation\33_Urho2DSpriterAnimation.vcxproj">
+      <Project>{DBAD29E9-192C-38E2-BBAE-FDA6A1A22346}</Project>
+      <Name>33_Urho2DSpriterAnimation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\34_DynamicGeometry\34_DynamicGeometry.vcxproj">
+      <Project>{A07B59A8-4070-3B95-B0FC-F5682A223B35}</Project>
+      <Name>34_DynamicGeometry</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\35_SignedDistanceFieldText\35_SignedDistanceFieldText.vcxproj">
+      <Project>{CE8C1AE9-81AB-3519-AA27-35BE9267E81D}</Project>
+      <Name>35_SignedDistanceFieldText</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\36_Urho2DTileMap\36_Urho2DTileMap.vcxproj">
+      <Project>{79641A27-A123-3987-8346-157729011C2E}</Project>
+      <Name>36_Urho2DTileMap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\37_UIDrag\37_UIDrag.vcxproj">
+      <Project>{F3BF888E-0A26-31E1-A43A-06D5DC55C237}</Project>
+      <Name>37_UIDrag</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\38_SceneAndUILoad\38_SceneAndUILoad.vcxproj">
+      <Project>{16517A17-D237-3BFA-8434-1132F435D2DC}</Project>
+      <Name>38_SceneAndUILoad</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\39_CrowdNavigation\39_CrowdNavigation.vcxproj">
+      <Project>{9AE1BE30-A0EB-3628-90AF-AAC102D49127}</Project>
+      <Name>39_CrowdNavigation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\40_Localization\40_Localization.vcxproj">
+      <Project>{3CEC4FBA-F3A4-3895-AC7C-8999F2FB9B1D}</Project>
+      <Name>40_Localization</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\42_PBRMaterials\42_PBRMaterials.vcxproj">
+      <Project>{CEA39937-F3D6-36A9-8D97-F24A63A994E0}</Project>
+      <Name>42_PBRMaterials</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\43_HttpRequestDemo\43_HttpRequestDemo.vcxproj">
+      <Project>{E194EFF6-AA32-3E0E-9FA9-8F948A0BDFF1}</Project>
+      <Name>43_HttpRequestDemo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\44_RibbonTrailDemo\44_RibbonTrailDemo.vcxproj">
+      <Project>{5D0B5B32-C72C-3085-A4F9-863665DB8781}</Project>
+      <Name>44_RibbonTrailDemo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\45_InverseKinematics\45_InverseKinematics.vcxproj">
+      <Project>{185A66A4-F51F-38B7-A9B0-48A359625077}</Project>
+      <Name>45_InverseKinematics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\46_RaycastVehicle\46_RaycastVehicle.vcxproj">
+      <Project>{DE74E15E-AFAB-307D-83EC-7D8905FBC0A9}</Project>
+      <Name>46_RaycastVehicle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\47_Typography\47_Typography.vcxproj">
+      <Project>{63D02A7A-AE54-3A3F-AE87-F76A6A4A80F7}</Project>
+      <Name>47_Typography</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\48_Hello3DUI\48_Hello3DUI.vcxproj">
+      <Project>{0913F7C2-1B5E-3B0A-BE39-B63861AB2681}</Project>
+      <Name>48_Hello3DUI</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\49_Urho2DIsometricDemo\49_Urho2DIsometricDemo.vcxproj">
+      <Project>{E6905E25-4CFC-3E0E-81C8-E3EBF6A4E2CE}</Project>
+      <Name>49_Urho2DIsometricDemo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\50_Urho2DPlatformer\50_Urho2DPlatformer.vcxproj">
+      <Project>{2F9FB402-CF59-39B9-AF6D-2443B6DB070D}</Project>
+      <Name>50_Urho2DPlatformer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\51_Urho2DStretchableSprite\51_Urho2DStretchableSprite.vcxproj">
+      <Project>{7D4559C9-C9D5-3262-A72D-A716E32D00C5}</Project>
+      <Name>51_Urho2DStretchableSprite</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\52_NATPunchtrough\52_NATPunchtrough.vcxproj">
+      <Project>{200F28DA-60CC-35DD-90AE-265296F4D1B3}</Project>
+      <Name>52_NATPunchtrough</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Samples\53_LANDiscovery\53_LANDiscovery.vcxproj">
+      <Project>{98644206-1C0D-3BB1-9311-6B5B4DBEB919}</Project>
+      <Name>53_LANDiscovery</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

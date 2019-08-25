@@ -27,6 +27,8 @@
 #include "../Resource/XMLFile.h"
 #include "../Scene/Animatable.h"
 #include "../UI/UIBatch.h"
+#include <map>
+#include <memory>
 
 namespace Urho3D
 {
@@ -122,8 +124,57 @@ class URHO3D_API UIElement : public Animatable
     URHO3D_OBJECT(UIElement, Animatable);
 
 public:
+    typedef void (*elementFunction)(UIElement*, Urho3D::UIElement*);
+    class ElementData {
+    public:
+        elementFunction functionMapping;
+        Urho3D::SharedPtr<Urho3D::UIElement> uiPtr;
+        Urho3D::String name;
+        ElementData() {
+            functionMapping = nullptr;
+            name = "No Name";
+        }
+    };
+    class KeyData {
+    public:
+        elementFunction functionMapping;
+        Urho3D::Key key;
+        KeyData() {
+            key = Urho3D::Key::KEY_0;
+            functionMapping = nullptr;
+        }
+    };
+
+    bool EnableMappedChild(Urho3D::String key, bool en);
+    void EnableMapped(bool en, bool recursive = true);
+    void SetVisibilityMapped(bool en, bool recursive = true);
+    bool SetChildMappedVisibility(Urho3D::String key, bool en);
+
+    void SetFontSize(int size);
+
+    void CenterPosition();
+    void ResetShown(bool resetThis = false);
+    void ClearMappedElements();
+    void ClearKeyMap();
+
+    bool AddMappedElement(Urho3D::String name, UIElement* element, elementFunction function);
+    bool AddMappedKey(Urho3D::Key key, elementFunction function);
+    bool RemoveMappedElement(Urho3D::String name);
+    bool RemoveMappedKey(Urho3D::Key);
+    virtual void ShowMapped(bool en, bool recursive = true);
+    bool isShown();
+
+    UIElement* GetMappedParent();
+
+    ElementData* GetMappedElementInfo(Urho3D::String name);
+    KeyData* GetMappedKeyInfo(Key key);
+    UIElement* GetMappedChildPointer(Urho3D::String name, bool recursive = false);
+
+    template <class T>
+    T* GetMappedChildPointer(Urho3D::String name = String(), bool recursive = false);
+
     /// Construct.
-    explicit UIElement(Context* context);
+    explicit UIElement(Context* context, UIElement * parent = nullptr);
     /// Destruct.
     ~UIElement() override;
     /// Register object factory.
@@ -650,6 +701,11 @@ public:
     void SetRenderTexture(Texture2D* texture);
 
 protected:
+    UIElement* m_MappedParentElement;
+    std::map<Urho3D::String, std::shared_ptr<ElementData> > m_uiList;
+    std::map <Urho3D::Key, std::shared_ptr<KeyData> > m_KeyMapping;
+    void HandleItemChanged(Urho3D::StringHash eventType, Urho3D::VariantMap& eventData);
+    void HandleKeyPressed(Urho3D::StringHash eventType, Urho3D::VariantMap& eventData);
     /// Handle attribute animation added.
     void OnAttributeAnimationAdded() override;
     /// Handle attribute animation removed.
@@ -849,6 +905,42 @@ template <class T> T* UIElement::GetChildDynamicCast(const String& name, bool re
 template <class T> T* UIElement::GetChildDynamicCast(const StringHash& key, const Variant& value, bool recursive) const
 {
     return dynamic_cast<T*>(GetChild(key, value, recursive));
+}
+
+template <class T> T* UIElement::GetMappedChildPointer(Urho3D::String name, bool recursive)
+{
+    T* child = nullptr;
+    if (name != String()) {
+        auto it = m_uiList.find(name);
+        if (it != m_uiList.end()) {
+            child = dynamic_cast<T*>(it->second->uiPtr.Get());
+        }
+    }
+    else {
+        auto it = m_uiList.begin();
+        while (it != m_uiList.end())
+        {
+            child = dynamic_cast<T*>(it->second->uiPtr.Get());
+            if (child != nullptr) {
+                break;
+            }
+            it++;
+        }
+    }
+    if (child == nullptr && recursive) {
+        auto it = m_uiList.begin();
+        while (it != m_uiList.end()) {
+            auto* current = it->second->uiPtr.Get();
+            if (current != nullptr) {
+                child = current->GetMappedChildPointer<T>(name, recursive);
+                if (child != nullptr) {
+                    break;
+                }
+            }
+            it++;
+        }
+    }
+    return child;
 }
 
 }

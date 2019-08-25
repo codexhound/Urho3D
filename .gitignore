@@ -111,3 +111,15 @@ configure*
 *.bak
 Thumbs.db
 .directory
+.vs/Urho3D/v16/.suo
+*.tlog
+*.obj
+*.exp
+*.lib
+*.pdb
+*.ipch
+*.db
+*.opendb
+*.db-shm
+*.db-wal
+*.pdb

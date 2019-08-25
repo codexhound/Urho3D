@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\229b94b3a9f70055805432db92b39c70\ScriptAPI.dox.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\229b94b3a9f70055805432db92b39c70\LuaScriptAPI.dox.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\8407bdd58448c1d5990d9d44bc0480fd\index.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\9ed70223ccd5152bdca1cdb008d6d407\doc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\Docs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\RampantVelcro\Documents\Urho3D\Docs\CMakeFiles\doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7F40D5DE-9783-3B46-A0AD-558FF545F88F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

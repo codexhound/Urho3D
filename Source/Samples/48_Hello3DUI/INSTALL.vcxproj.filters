@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\4a9337a41845ee772a944b20e2d1edcb\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7F40D5DE-9783-3B46-A0AD-558FF545F88F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

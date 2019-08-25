@@ -33,6 +33,8 @@
 #include "../UI/UI.h"
 #include "../UI/UIElement.h"
 #include "../UI/UIEvents.h"
+#include "../UI/Text.h"
+#include "../Input/InputEvents.h"
 
 #include "../DebugNew.h"
 
@@ -92,11 +94,19 @@ static bool CompareUIElements(const UIElement* lhs, const UIElement* rhs)
 
 XPathQuery UIElement::styleXPathQuery_("/elements/element[@type=$typeName]", "typeName:String");
 
-UIElement::UIElement(Context* context) :
+UIElement::UIElement(Context* context, UIElement * parent) :
     Animatable(context),
     pivot_(std::numeric_limits<float>::max(), std::numeric_limits<float>::max())
 {
+
+    if (parent != nullptr) {
+        parent->AddChild(this);
+    }
     SetEnabled(false);
+
+    m_MappedParentElement = nullptr;
+
+    SubscribeToEvent(Urho3D::E_KEYDOWN, URHO3D_HANDLER(UIElement, HandleKeyPressed));
 }
 
 UIElement::~UIElement()
@@ -2240,5 +2250,358 @@ void UIElement::SetRenderTexture(Texture2D* texture)
     if (auto* ui = GetSubsystem<UI>())
         ui->SetElementRenderTexture(this, texture);
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+void UIElement::EnableMapped(bool en, bool recursive)
+{
+    SetEnabled(en);
+    if (recursive) {
+        auto it = m_uiList.begin();
+        while (it != m_uiList.end()) {
+            auto* current = it->second->uiPtr.Get();
+            if (current != nullptr) {
+                current->EnableMapped(en, recursive);
+            }
+            it++;
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+void UIElement::SetVisibilityMapped(bool en, bool recursive)
+{
+    SetVisible(en);
+    if (recursive) {
+        auto it = m_uiList.begin();
+        while (it != m_uiList.end()) {
+            auto* current = it->second->uiPtr.Get();
+            if (current != nullptr) {
+                current->SetVisibilityMapped(en, recursive);
+            }
+            it++;
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+UIElement* UIElement::GetMappedChildPointer(Urho3D::String name, bool recursive)
+{
+    UIElement * child = nullptr;
+    auto it = m_uiList.find(name);
+    if (it != m_uiList.end()) {
+        child = it->second->uiPtr.Get();
+    }
+    if (child == nullptr && recursive) {
+        auto it = m_uiList.begin();
+        while (it != m_uiList.end()) {
+            auto* current = it->second->uiPtr.Get();
+            if (current != nullptr) {
+                child = current->GetMappedChildPointer(name, recursive);
+                if (child != nullptr) {
+                    break;
+                }
+            }
+            it++;
+        }
+    }
+    return child;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+bool UIElement::RemoveMappedElement(Urho3D::String name)
+{
+    bool succ = false;
+    auto it = m_uiList.find(name);
+    if (it != m_uiList.end()) {
+        succ = true;
+        auto* current = it->second->uiPtr.Get();
+        if (current != nullptr) {
+            auto* parent = current->GetParent();
+            if (parent != nullptr) {
+                parent->RemoveChild(current);
+            }
+        }
+        m_uiList.erase(it);
+    }
+    return succ;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+bool UIElement::AddMappedKey(Urho3D::Key key, elementFunction function)
+{
+    bool succ = false;
+    if (function != nullptr) {
+        auto it = m_KeyMapping.find(key);
+        if (it == m_KeyMapping.end()) {
+            succ = true;
+            KeyData* data = new KeyData();
+            data->functionMapping = function;
+            data->key = key;
+            m_KeyMapping[key] = std::shared_ptr<KeyData>(data);
+        }
+    }
+    return succ;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+bool UIElement::RemoveMappedKey(Urho3D::Key key)
+{
+    bool succ = false;
+    auto it = m_KeyMapping.find(key);
+    if (it != m_KeyMapping.end()) {
+        succ = true;
+        m_KeyMapping.erase(it);
+    }
+    return succ;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+bool UIElement::AddMappedElement(Urho3D::String name, UIElement* element, elementFunction function)
+{
+    bool succ = false;
+    if (element != nullptr) {
+        auto it = m_uiList.find(name);
+        if (it == m_uiList.end())
+        {
+            succ = true;
+            element->m_MappedParentElement = this;
+            ElementData* data = new ElementData;
+            element->SetName(name);
+            data->name = name;
+            data->uiPtr = element;
+            data->functionMapping = function;
+            m_uiList[name] = std::shared_ptr<ElementData>(data);
+        }
+        if (!succ) {
+            auto* parent = element->GetParent();
+            if (parent != nullptr) {
+                parent->RemoveChild(element);
+            }
+        }
+    }
+    return succ;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+UIElement* UIElement::GetMappedParent()
+{
+    return m_MappedParentElement;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+bool UIElement::EnableMappedChild(Urho3D::String key, bool en)
+{
+    bool succ = false;
+    auto it = m_uiList.find(key);
+    if (it != m_uiList.end()) {
+        auto* current = it->second->uiPtr.Get();
+        if (current != nullptr) {
+            succ = true;
+            current->SetEnabled(en);
+        } 
+    }
+    return succ;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+bool UIElement::SetChildMappedVisibility(Urho3D::String key, bool en)
+{
+    bool succ = false;
+    auto it = m_uiList.find(key);
+    if (it != m_uiList.end()) {
+        UIElement* current = it->second->uiPtr.Get();
+        if (current != nullptr) {
+            succ = true;
+            current->SetVisible(en);
+        }
+    }
+    return succ;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+void UIElement::HandleItemChanged(Urho3D::StringHash eventType, Urho3D::VariantMap& eventData)
+{
+    if (IsEnabled()) {
+        using namespace Urho3D::Released;
+        Urho3D::UIElement* element = (Urho3D::UIElement*)(eventData[P_ELEMENT].GetVoidPtr());
+        if (element != nullptr) {
+            Urho3D::String name = element->GetName();
+            ElementData* info = GetMappedElementInfo(name);
+            if (info != nullptr) {
+                elementFunction function = info->functionMapping;
+                if (function != nullptr) {
+                    function(this, element); //run the function
+                }
+            }
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+void UIElement::HandleKeyPressed(Urho3D::StringHash eventType, Urho3D::VariantMap& eventData)
+{
+    if (IsEnabled()) {
+        using namespace KeyDown;
+        Urho3D::Key key = (Urho3D::Key)(eventData[P_KEY].GetInt());
+        auto* data = GetMappedKeyInfo(key);
+        if (data != nullptr) {
+            elementFunction function = data->functionMapping;
+            if (function != nullptr) {
+                function(this, nullptr);
+            }
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+bool UIElement::isShown()
+{
+    bool value = false;
+    if (IsEnabled() && IsVisible()) {
+        value = true;
+    }
+    return value;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+void UIElement::ShowMapped(bool en,bool recursive)
+{
+    SetEnabled(en);
+    SetVisible(en);
+    if (recursive) {
+        auto it = m_uiList.begin();
+        while (it != m_uiList.end()) {
+            auto* current = it->second->uiPtr.Get();
+            if (current != nullptr) {
+                current->ShowMapped(en, recursive);
+            }
+            it++;
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+void UIElement::ResetShown(bool resetThis)
+{
+    if (resetThis) {
+        SetEnabled(false);
+        SetVisible(false);
+    }
+    auto it = m_uiList.begin();
+    while (it != m_uiList.end()) {
+        auto* current = it->second->uiPtr.Get();
+        if (current != nullptr) {
+            current->ShowMapped(false);
+        }
+        it++;
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+void UIElement::SetFontSize(int size)
+{
+    auto menuIt = m_uiList.begin();
+    while (menuIt != m_uiList.end()) {
+        Urho3D::UIElement* menuItem = menuIt->second->uiPtr;
+        if (menuItem != nullptr) {
+            menuItem->SetMinSize(menuItem->GetMinSize().x_, size * 2);
+            menuItem->SetStyleAuto();
+            auto& list = menuItem->GetChildren();
+            auto it = list.Begin();
+            while (it != list.End()) {
+                Urho3D::UIElement* element = (*it).Get();
+                if (element != nullptr) {
+                    Urho3D::Text* text = dynamic_cast<Urho3D::Text*>(element);
+                    if (text != nullptr) {
+                        text->SetFontSize(size);
+                        text->SetStyleAuto();
+                    }
+                }
+                it++;
+            }
+        }
+        menuIt++;
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+void UIElement::CenterPosition()
+{
+#ifdef DEBUG
+    std::cout << "Center Position" << std::endl;
+#endif
+    if (GetParent() != nullptr) {
+        SetPosition((GetParent()->GetWidth()/4), (GetParent()->GetHeight() / 4));
+    }
+    
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+UIElement::ElementData* UIElement::GetMappedElementInfo(Urho3D::String name)
+{
+    ElementData* value = nullptr;
+    auto it = m_uiList.find(name);
+    if (it != m_uiList.end()) {
+        value = it->second.get();
+    }
+    return value;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+UIElement::KeyData* UIElement::GetMappedKeyInfo(Key key)
+{
+    KeyData* value = nullptr;
+    auto it = m_KeyMapping.find(key);
+    if (it != m_KeyMapping.end()) {
+        value = it->second.get();
+    }
+    return value;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+void UIElement::ClearMappedElements()
+{
+    auto it = m_uiList.begin();
+    while (it != m_uiList.end()) {
+        auto* current = it->second->uiPtr.Get();
+        if (current != nullptr) {
+            auto* parent = current->GetParent();
+            if (parent != nullptr) {
+                parent->RemoveChild(current);
+            }
+        }
+        it++;
+    }
+    m_uiList.clear();
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+void UIElement::ClearKeyMap()
+{
+    m_KeyMapping.clear();
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////
 
 }

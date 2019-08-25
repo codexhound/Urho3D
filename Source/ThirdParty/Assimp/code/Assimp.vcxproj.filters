@@ -1,0 +1,1797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\CInterfaceIOWrapper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ScaleProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\StepExporter.cpp">
+      <Filter>Step</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AMFImporter.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AMFImporter_Geometry.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AMFImporter_Material.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AMFImporter_Postprocess.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\3DSExporter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AssbinExporter.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AssxmlExporter.cpp">
+      <Filter>ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ColladaExporter.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IRRMeshLoader.cpp">
+      <Filter>IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ObjExporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OpenGEXExporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\PlyExporter.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCReaderGen1.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCReaderGen2.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\STEPFileReader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\STEPFileEncoding.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Q3BSPZipArchive.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SIBImporter.cpp">
+      <Filter>SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\STLExporter.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\XFileExporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DExporter.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter_Geometry2D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter_Geometry3D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter_Group.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter_Light.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter_Metadata.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter_Networking.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter_Postprocess.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter_Rendering.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter_Shape.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter_Texturing.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FIReader.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DVocabulary.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTFImporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTFExporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTF2Importer.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTF2Exporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\D3MFImporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\D3MFExporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\D3MFOpcPackage.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MMDImporter.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MMDPmxParser.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\irrXML\irrXML.cpp">
+      <Filter>IrrXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\unzip\ioapi.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\unzip\unzip.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\clipper\clipper.cpp">
+      <Filter>Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\gzclose.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\gzlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\gzread.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\gzwrite.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\fast_atof.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\qnan.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BaseImporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ByteSwapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\CInterfaceIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Hash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MemoryIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ParsingUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\StreamReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\StreamWriter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\StringComparison.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\StringUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SGSpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\GenericProperty.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SkeletonMeshBuilder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ScaleProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SmoothingGroups.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\StandardShapes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\RemoveComments.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Subdivision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LineSplitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\TinyFormatter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Profiler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LogAux.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Bitmap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\XMLTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IOStreamBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\CreateAnimMesh.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\PolyTools.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\StepExporter.h">
+      <Filter>Step</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AMFImporter.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AMFImporter_Macro.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AMFImporter_Node.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\3DSExporter.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AssbinExporter.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\AssxmlExporter.h">
+      <Filter>ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ColladaExporter.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IRRMeshLoader.h">
+      <Filter>IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\ObjExporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OpenGEXExporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\PlyExporter.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCReaderGen.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\STEPFile.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\STEPFileReader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\STEPFileEncoding.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\Q3BSPZipArchive.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SIBImporter.h">
+      <Filter>SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\STLExporter.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\XFileExporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DExporter.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter_Macro.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\X3DImporter_Node.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\FIReader.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTFAsset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTFAsset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTFAssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTFAssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTFImporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTFExporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTF2Asset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTF2Asset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTF2AssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTF2AssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTF2Importer.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\glTF2Exporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\D3MFImporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\D3MFExporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\D3MFOpcPackage.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\3MFXmlTags.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MMDCpp14.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MMDImporter.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MMDPmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MMDPmxParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\MMDVmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\irrXML\CXMLReaderImpl.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\irrXML\heapsort.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\irrXML\irrArray.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\irrXML\irrString.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\irrXML\irrTypes.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\irrXML\irrXML.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\unzip\crypt.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\unzip\ioapi.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\unzip\unzip.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\clipper\clipper.hpp">
+      <Filter>Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\gzguts.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\contrib\zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\DefaultIOStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\DefaultIOSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\SceneCombiner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3D">
+      <UniqueIdentifier>{ADC07AB5-7523-3CEE-B90E-294F581AD70F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{3B813D37-6B40-3C0A-B5AA-41657EAFB229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF">
+      <UniqueIdentifier>{06EEB38C-EF4C-352D-B375-7435C7C1E2D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{E0F051A4-F81C-3F1B-A316-5C2AB9555EE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AMF">
+      <UniqueIdentifier>{C52498AB-F909-310F-A46A-8C8463EB24A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{9158CB4C-AD16-359D-8A03-C3BF88BDF38B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{172870F8-FC63-3CD1-AB3E-B173ECA36A98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML">
+      <UniqueIdentifier>{EDBBCC18-D013-35CD-BB67-AB067F945002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{1DC1673D-D2A7-3DB6-A397-73CE986BDF23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{34CAF93D-AD23-3D2A-B46F-4F4A14ABFBB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{72497DEC-95EC-3F1F-AC8C-12831ED93AF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{CF133EAF-B9FB-3384-8D84-46DF874EFE4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{61C44E33-2102-35EC-B4D0-61906829CB9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{0D9EA6B7-4447-3712-9D47-7F19BA713607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{297C0D95-871A-35ED-8951-F6C494B04B3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{95489A86-E827-3FE4-93E1-1B4DA7BA76CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{857D4161-AC89-3E7B-9EF1-5DBCC8814785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{187EAFB7-2AE8-3CF5-8BB7-72FC816A6312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{B4DE3471-F541-3B07-88ED-E9AD28FF3495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{2542DD26-D6CF-33A8-ADCC-690073D9AC33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{DC76A297-9910-3F9D-87BD-61E9FD0EEDE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{756506D7-F028-3FCA-9AFB-8480AF68E458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{269710BF-9DF8-36FA-945F-D779C4095FA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{BB5E6DA0-E940-3D38-8A67-8BAF7540F8DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{FC2EA168-A04E-3049-B143-A25B773BD78C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRRMESH">
+      <UniqueIdentifier>{8F7803A6-5A51-3759-9938-FE7041E5E110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{47A7C0C1-7691-3DDB-9FDB-530267EDDC05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{B4D5FA22-0050-376D-A919-99F4649EA3F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{4DB803C1-5901-31DF-A590-14B2624A3748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{BB1FB46D-9BE3-38F2-9CE8-F823C2C999B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{E611B774-D40F-3D0A-AC39-784F341853CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{46D22B3B-5EDB-3EC5-B8E0-65028CE0BDB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{FCC160C0-12E0-3CDE-A85A-C4AB87E27A7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{2BA98002-E643-39C9-A315-9BF66472C05F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{12C3E23B-EE3A-3D82-8532-79D8EE42CDFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMD">
+      <UniqueIdentifier>{6D5139B5-88B2-3313-BD25-BA4AA10913FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{140C6154-10E8-32E2-98EB-42EC7488929A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{B4E9D6C6-BB62-3826-8672-4DAB558EA1E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{420B832B-DFDA-307B-B7A1-34BB6D9776AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{61E20CAB-0D22-3A87-925F-C2F07A2754C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{C33A1B8C-9C7A-3C84-8B87-EBB70F30C5E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{F25F027A-6B5F-315A-ADB0-F88F0AAEEC01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{02917D30-3458-34E8-A744-B0F2C5520FF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{9A3D4BD5-E920-369B-9426-5550FD3CAC9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{478E6E75-6C3D-375C-9405-012E523249F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{47FE2BD4-9683-3B7A-BA2C-E28B99A0C020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{9D28DD0E-868F-30D8-BD6A-216E0BB23B60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{53F16699-5736-341F-B7DA-C5A6EBB2C1D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{4AC5A6E8-D199-3EC1-BFBD-FC160E727847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{035DE5E4-4744-3F29-B9C1-112C879C06C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIB">
+      <UniqueIdentifier>{AD73A4A2-5682-3575-8BBC-CD049E628781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{728A1C66-EDAA-3629-B494-1A246C827341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{5C310F8F-12D3-39A9-A1CB-B90A18B575B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{549170CE-6F0C-3CE1-BC10-CFD842782C63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Step">
+      <UniqueIdentifier>{591C714D-EEBD-3747-A4BA-0787270D71A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{359D4CFC-65A3-3338-A56E-C08A60935207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{AB2EAEAD-88F5-3EC7-B580-8C2916F4DD4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D">
+      <UniqueIdentifier>{45EBBFA9-7D42-3B69-8D38-1F4B87C47A68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{5DBD8F61-7B61-3FB6-8274-634674EDCB79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="open3dgc">
+      <UniqueIdentifier>{06EDB654-07B8-38D5-A8F0-E274C1D6EA44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openddl_parser">
+      <UniqueIdentifier>{8D3B051D-3932-30A3-81FC-0E5394DE1BFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{3F2C188E-532F-3C0E-B0E0-A8F1C5BDB415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{63F23833-85D6-36A3-BEED-483DF999DF56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{6CD53921-BCA1-36E0-ABEC-08232DAEFF28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -563,11 +563,12 @@ Resource* ResourceCache::GetResource(StringHash type, const String& name, bool s
 {
     String sanitatedName = SanitateResourceName(name);
 
+    /*
     if (!Thread::IsMainThread())
     {
         URHO3D_LOGERROR("Attempted to get resource " + sanitatedName + " from outside the main thread");
         return nullptr;
-    }
+    }*/
 
     // If empty name, return null pointer immediately
     if (sanitatedName.Empty())

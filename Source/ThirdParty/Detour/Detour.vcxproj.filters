@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Source\DetourAlloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Source\DetourAssert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Source\DetourCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Source\DetourNavMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Source\DetourNavMeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Source\DetourNavMeshQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Source\DetourNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Include\DetourAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Include\DetourAssert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Include\DetourCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Include\DetourMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Include\DetourNavMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Include\DetourNavMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Include\DetourNavMeshQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Include\DetourNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\Include\DetourStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\ThirdParty\Detour\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{269710BF-9DF8-36FA-945F-D779C4095FA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{549170CE-6F0C-3CE1-BC10-CFD842782C63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1950 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\Addons.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\AudioAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\CoreAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\DatabaseAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\EngineAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\GraphicsAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\IKAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\IOAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\InputAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\MathAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\NavigationAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\NetworkAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\PhysicsAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\ResourceAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\SceneAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\Script.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\ScriptAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\ScriptAPIDump.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\ScriptFile.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\ScriptInstance.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\UIAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\Urho2DAPI.cpp">
+      <Filter>Source Files\AngelScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\Audio.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\BufferedSoundStream.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\OggVorbisSoundStream.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\Sound.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\SoundListener.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\SoundSource.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\SoundSource3D.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\SoundStream.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\Allocator.cpp">
+      <Filter>Source Files\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\HashBase.cpp">
+      <Filter>Source Files\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\RefCounted.cpp">
+      <Filter>Source Files\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\Str.cpp">
+      <Filter>Source Files\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\Swap.cpp">
+      <Filter>Source Files\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\VectorBase.cpp">
+      <Filter>Source Files\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Condition.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Context.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\EventProfiler.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\MiniDump.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Mutex.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Object.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\ProcessUtils.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Profiler.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Spline.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\StringHashRegister.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\StringUtils.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Thread.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Timer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Variant.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\WorkQueue.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Engine\Application.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Engine\Console.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Engine\DebugHud.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Engine\Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\AnimatedModel.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Animation.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\AnimationController.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\AnimationState.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Batch.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\BillboardSet.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Camera.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\ConstantBuffer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\CustomGeometry.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\DebugRenderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\DecalSet.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9ConstantBuffer.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9Graphics.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9GraphicsImpl.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9IndexBuffer.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9RenderSurface.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9ShaderVariation.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9Texture.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9Texture2D.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9Texture2DArray.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9Texture3D.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9TextureCube.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9VertexBuffer.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9VertexDeclaration.cpp">
+      <Filter>Source Files\Graphics\Direct3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Drawable.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\GPUObject.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Geometry.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Graphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\GraphicsDefs.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\IndexBuffer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Light.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Material.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Model.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\OcclusionBuffer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Octree.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\OctreeQuery.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\ParticleEffect.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\ParticleEmitter.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\RenderPath.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\RenderSurface.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Renderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\RibbonTrail.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Shader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\ShaderPrecache.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\ShaderVariation.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Skeleton.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Skybox.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\StaticModel.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\StaticModelGroup.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Tangent.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Technique.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Terrain.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\TerrainPatch.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Texture.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Texture2D.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Texture2DArray.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Texture3D.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\TextureCube.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\VertexBuffer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\View.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Viewport.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Zone.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IK\IK.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IK\IKConstraint.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IK\IKConverters.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IK\IKEffector.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IK\IKSolver.cpp">
+      <Filter>Source Files\IK</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\Compression.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\Deserializer.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\File.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\FileSystem.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\FileWatcher.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\Log.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\MemoryBuffer.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\NamedPipe.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\PackageFile.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\Serializer.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\VectorBuffer.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Input\Controls.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Input\Input.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LibraryInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\LuaFile.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\LuaFunction.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\LuaScript.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\LuaScriptEventInvoker.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\LuaScriptInstance.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\ToluaUtils.cpp">
+      <Filter>Source Files\LuaScript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\AudioLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\CoreLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\EngineLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\GraphicsLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\IKLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\IOLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\InputLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\LuaScriptLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\MathLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\NavigationLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\NetworkLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\PhysicsLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\ResourceLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\SceneLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\UILuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\generated\Urho2DLuaAPI.cpp">
+      <Filter>Source Files\LuaScript\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\AreaAllocator.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\BoundingBox.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Color.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Frustum.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\MathDefs.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Matrix2.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Matrix3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Matrix3x4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Matrix4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Plane.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Polyhedron.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Quaternion.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Random.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Ray.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Rect.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Sphere.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\StringHash.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Vector2.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Vector3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Vector4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\CrowdAgent.cpp">
+      <Filter>Source Files\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\CrowdManager.cpp">
+      <Filter>Source Files\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\DynamicNavigationMesh.cpp">
+      <Filter>Source Files\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\NavArea.cpp">
+      <Filter>Source Files\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\NavBuildData.cpp">
+      <Filter>Source Files\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\Navigable.cpp">
+      <Filter>Source Files\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\NavigationMesh.cpp">
+      <Filter>Source Files\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\Obstacle.cpp">
+      <Filter>Source Files\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\OffMeshConnection.cpp">
+      <Filter>Source Files\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Network\Connection.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Network\HttpRequest.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Network\Network.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Network\NetworkPriority.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Physics\CollisionShape.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Physics\Constraint.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Physics\PhysicsWorld.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Physics\RaycastVehicle.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Physics\RigidBody.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Precompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\BackgroundLoader.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\Decompress.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\Image.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\JSONFile.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\JSONValue.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\Localization.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\PListFile.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\Resource.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\ResourceCache.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\XMLElement.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\XMLFile.cpp">
+      <Filter>Source Files\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\Animatable.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\Component.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\LogicComponent.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\Node.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\ObjectAnimation.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\Scene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\SceneResolver.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\Serializable.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\SmoothedTransform.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\SplinePath.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\UnknownComponent.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\ValueAnimation.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\ValueAnimationInfo.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\BorderImage.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Button.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\CheckBox.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Cursor.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\DropDownList.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\FileSelector.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Font.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\FontFace.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\FontFaceBitmap.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\FontFaceFreeType.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\LineEdit.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\ListView.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Menu.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\MessageBox.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\ProgressBar.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\ScrollBar.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\ScrollView.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Slider.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Sprite.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Text.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Text3D.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\ToolTip.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\UI.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\UIBatch.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\UIComponent.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\UIElement.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\UISelectable.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\View3D.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Window.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\AnimatedSprite2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\AnimationSet2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\CollisionBox2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\CollisionChain2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\CollisionCircle2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\CollisionEdge2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\CollisionPolygon2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\CollisionShape2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\Constraint2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintDistance2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintFriction2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintGear2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintMotor2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintMouse2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintPrismatic2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintPulley2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintRevolute2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintRope2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintWeld2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintWheel2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\Drawable2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ParticleEffect2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ParticleEmitter2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\PhysicsWorld2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\Renderer2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\RigidBody2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\Sprite2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\SpriteSheet2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\SpriterData2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\SpriterInstance2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\StaticSprite2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\StretchableSprite2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\TileMap2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\TileMapDefs2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\TileMapLayer2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\TmxFile2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\Urho2D.cpp">
+      <Filter>Source Files\Urho2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\APITemplates.h">
+      <Filter>Header Files\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\Addons.h">
+      <Filter>Header Files\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\Script.h">
+      <Filter>Header Files\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\ScriptAPI.h">
+      <Filter>Header Files\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\ScriptEventListener.h">
+      <Filter>Header Files\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\ScriptFile.h">
+      <Filter>Header Files\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\AngelScript\ScriptInstance.h">
+      <Filter>Header Files\AngelScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\Audio.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\AudioDefs.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\AudioEvents.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\BufferedSoundStream.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\OggVorbisSoundStream.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\Sound.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\SoundListener.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\SoundSource.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\SoundSource3D.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Audio\SoundStream.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Base\Algorithm.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Base\Iter.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\Allocator.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\ArrayPtr.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\FlagSet.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\ForEach.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\Hash.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\HashBase.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\HashMap.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\HashSet.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\LinkedList.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\List.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\ListBase.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\Pair.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\Ptr.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\RefCounted.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\Sort.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\Str.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\Swap.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\Vector.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Container\VectorBase.h">
+      <Filter>Header Files\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Attribute.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Condition.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Context.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\CoreEvents.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\EventProfiler.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Main.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\MiniDump.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Mutex.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Object.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\ProcessUtils.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Profiler.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Spline.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\StringHashRegister.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\StringUtils.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Thread.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Timer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\Variant.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Core\WorkQueue.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\DebugNew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Engine\Application.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Engine\Console.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Engine\DebugHud.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Engine\Engine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Engine\EngineDefs.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Engine\EngineEvents.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\AnimatedModel.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Animation.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\AnimationController.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\AnimationState.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Batch.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\BillboardSet.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Camera.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\ConstantBuffer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\CustomGeometry.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\DebugRenderer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\DecalSet.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9GraphicsImpl.h">
+      <Filter>Header Files\Graphics\Direct3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9ShaderProgram.h">
+      <Filter>Header Files\Graphics\Direct3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Direct3D9\D3D9VertexDeclaration.h">
+      <Filter>Header Files\Graphics\Direct3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Drawable.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\DrawableEvents.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\GPUObject.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Geometry.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Graphics.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\GraphicsDefs.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\GraphicsEvents.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\GraphicsImpl.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\IndexBuffer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Light.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Material.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Model.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\OcclusionBuffer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Octree.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\OctreeQuery.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\ParticleEffect.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\ParticleEmitter.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\RenderPath.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\RenderSurface.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Renderer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\RibbonTrail.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Shader.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\ShaderPrecache.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\ShaderProgram.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\ShaderVariation.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Skeleton.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Skybox.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\StaticModel.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\StaticModelGroup.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Tangent.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Technique.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Terrain.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\TerrainPatch.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Texture.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Texture2D.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Texture2DArray.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Texture3D.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\TextureCube.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\VertexBuffer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\VertexDeclaration.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\View.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Viewport.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Graphics\Zone.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IK\IK.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IK\IKConstraint.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IK\IKConverters.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IK\IKEffector.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IK\IKEvents.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IK\IKSolver.h">
+      <Filter>Header Files\IK</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\AbstractFile.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\Compression.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\Deserializer.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\File.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\FileSystem.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\FileWatcher.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\IOEvents.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\Log.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\MacFileWatcher.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\MemoryBuffer.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\NamedPipe.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\PackageFile.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\RWOpsWrapper.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\Serializer.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\IO\VectorBuffer.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Input\Controls.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Input\Input.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Input\InputConstants.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Input\InputEvents.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LibraryInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\LuaFile.h">
+      <Filter>Header Files\LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\LuaFunction.h">
+      <Filter>Header Files\LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\LuaScript.h">
+      <Filter>Header Files\LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\LuaScriptEventInvoker.h">
+      <Filter>Header Files\LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\LuaScriptEventListener.h">
+      <Filter>Header Files\LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\LuaScriptInstance.h">
+      <Filter>Header Files\LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\LuaScript\ToluaUtils.h">
+      <Filter>Header Files\LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\AreaAllocator.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\BoundingBox.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Color.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Frustum.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\MathDefs.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Matrix2.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Matrix3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Matrix3x4.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Matrix4.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Plane.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Polyhedron.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Quaternion.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Random.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Ray.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Rect.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Sphere.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\StringHash.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Vector2.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Vector3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Math\Vector4.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\CrowdAgent.h">
+      <Filter>Header Files\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\CrowdManager.h">
+      <Filter>Header Files\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\DynamicNavigationMesh.h">
+      <Filter>Header Files\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\NavArea.h">
+      <Filter>Header Files\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\NavBuildData.h">
+      <Filter>Header Files\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\Navigable.h">
+      <Filter>Header Files\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\NavigationEvents.h">
+      <Filter>Header Files\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\NavigationMesh.h">
+      <Filter>Header Files\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\Obstacle.h">
+      <Filter>Header Files\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Navigation\OffMeshConnection.h">
+      <Filter>Header Files\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Network\Connection.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Network\HttpRequest.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Network\Network.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Network\NetworkEvents.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Network\NetworkPriority.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Network\Protocol.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Physics\CollisionShape.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Physics\Constraint.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Physics\PhysicsEvents.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Physics\PhysicsUtils.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Physics\PhysicsWorld.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Physics\RaycastVehicle.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Physics\RigidBody.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Precompiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\BackgroundLoader.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\Decompress.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\Image.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\JSONFile.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\JSONValue.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\Localization.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\PListFile.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\Resource.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\ResourceCache.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\ResourceEvents.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\XMLElement.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Resource\XMLFile.h">
+      <Filter>Header Files\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\Animatable.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\AnimationDefs.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\Component.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\LogicComponent.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\Node.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\ObjectAnimation.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\ReplicationState.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\Scene.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\SceneEvents.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\SceneResolver.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\Serializable.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\SmoothedTransform.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\SplinePath.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\UnknownComponent.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\ValueAnimation.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Scene\ValueAnimationInfo.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\BorderImage.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Button.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\CheckBox.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Cursor.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\DropDownList.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\FileSelector.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Font.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\FontFace.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\FontFaceBitmap.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\FontFaceFreeType.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\LineEdit.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\ListView.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Menu.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\MessageBox.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\ProgressBar.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\ScrollBar.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\ScrollView.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Slider.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Sprite.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Text.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Text3D.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\ToolTip.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\UI.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\UIBatch.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\UIComponent.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\UIElement.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\UIEvents.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\UISelectable.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\View3D.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\UI\Window.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\AnimatedSprite2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\AnimationSet2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\CollisionBox2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\CollisionChain2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\CollisionCircle2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\CollisionEdge2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\CollisionPolygon2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\CollisionShape2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\Constraint2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintDistance2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintFriction2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintGear2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintMotor2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintMouse2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintPrismatic2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintPulley2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintRevolute2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintRope2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintWeld2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ConstraintWheel2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\Drawable2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ParticleEffect2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\ParticleEmitter2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\PhysicsEvents2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\PhysicsUtils2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\PhysicsWorld2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\Renderer2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\RigidBody2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\Sprite2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\SpriteSheet2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\SpriterData2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\SpriterInstance2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\StaticSprite2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\StretchableSprite2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\TileMap2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\TileMapDefs2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\TileMapLayer2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\TmxFile2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\Urho2D.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho2D\Urho2DEvents.h">
+      <Filter>Header Files\Urho2D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho3DAll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\Urho3DConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\librevision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\AudioLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\CoreLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\EngineLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\GraphicsLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\IKLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\IOLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\InputLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\LuaScriptLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\MathLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\NavigationLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\NetworkLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\PhysicsLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\ResourceLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\SceneLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\UILuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\57d31908744eceb1e2905f5d7cf76709\Urho2DLuaAPI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\CMakeFiles\95490c95446fa90896a68faee1fe4042\librevision.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\RampantVelcro\Documents\Urho3D\Source\Urho3D\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7F40D5DE-9783-3B46-A0AD-558FF545F88F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{269710BF-9DF8-36FA-945F-D779C4095FA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AngelScript">
+      <UniqueIdentifier>{CEA653A3-E676-3E87-BA0B-511E0D07C37B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio">
+      <UniqueIdentifier>{F9D64D09-F733-3858-B1D7-C00DA11E222D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{59CA5F3D-A795-360E-AF99-9608313A2FD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Container">
+      <UniqueIdentifier>{09A65605-8687-3127-9EDC-B29714CA3392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{F3ED1F20-2D2A-309A-9B5B-0CCEFE5EA8A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{FE8F9C24-EA0B-3C42-93A2-7362AE6947A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{3D674355-2990-342C-AE0E-812355E1D3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Direct3D9">
+      <UniqueIdentifier>{9DF8BBEC-6A64-3F3C-B5B8-21E973ACB10E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IK">
+      <UniqueIdentifier>{47BED7D9-8D3D-34E0-9FF8-AF9469AF986D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{C8DBF221-CB96-3746-AFD1-E25F102FE4BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{3C8F4D1A-53BF-32DE-A000-5DF8ACC29E54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LuaScript">
+      <UniqueIdentifier>{C8AB2CF4-D29F-387B-9694-B17270DE2B2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{D00D05B2-7A4F-3A53-83EC-6CA6F265D047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Navigation">
+      <UniqueIdentifier>{8572D9E5-59D8-3342-B777-DD466C86F428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{C111FD5F-AD8C-3EE8-842C-E48ED79F488C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{21432C86-0823-3119-9CF9-AA65762F9060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource">
+      <UniqueIdentifier>{668131AD-43B0-3A0D-A454-88C4DE7316A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{55A5C79E-C10C-332E-876C-2CB6C3B8D8E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{507C21D0-7173-359E-83C5-0A86BFDF96A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Urho2D">
+      <UniqueIdentifier>{6F1807CA-BACA-37A2-804F-53309746E373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{549170CE-6F0C-3CE1-BC10-CFD842782C63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AngelScript">
+      <UniqueIdentifier>{228F3DD3-88E4-3F65-BB68-C4BBD56011E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio">
+      <UniqueIdentifier>{BF30652A-9C91-3C04-9179-8936133BB359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Container">
+      <UniqueIdentifier>{02EE2568-A280-3CB1-931A-2773C3DF1520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{EFBD0236-E00B-39A4-93CB-C12E23BC6FF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{149AE526-EB48-328C-834F-7C4A49DEF1F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{E5FB1236-15E4-33B0-803B-ADF5A7BAAE82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Direct3D9">
+      <UniqueIdentifier>{E9F9AEF8-2C80-3447-B673-E67D665A30E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IK">
+      <UniqueIdentifier>{CCCBFC37-F2CE-3C60-9F61-4B9DEDC73FFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{A0AC6C42-8DC4-3155-A0FC-F36069D935FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{1FF5D51E-2982-3533-B4E8-8088476059A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LuaScript">
+      <UniqueIdentifier>{38F4D84B-4C35-3FB7-A7BD-E42C783E596B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LuaScript\generated">
+      <UniqueIdentifier>{BA39F45A-6DCA-39DA-87CF-113BB2C5C7CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{A7AD3CCD-7940-3ABE-9994-9F031D9291A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Navigation">
+      <UniqueIdentifier>{D7ECF6FE-8B1F-33FC-A6DA-E6F90D70312F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{A7255CDA-28AA-3411-B7E3-829F5ABACECA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{00C18809-CC14-31EF-B003-43A31F8E1167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource">
+      <UniqueIdentifier>{5A9D1CFE-B41E-301C-8769-82CD31DF2E5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{58A4AA66-0535-3F90-90D3-A9089B47E2D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{FA632E72-0B38-3A07-8815-9BF326D6A2CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Urho2D">
+      <UniqueIdentifier>{B3ED5238-3A66-39E0-A0D4-6D287D1E17D5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
